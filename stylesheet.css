@@ -1,56 +1,89 @@
 
-a {
-color: #6495ED;
-text-decoration: none;
-}
+  
+  a {
+    color: #1772d0;
+    text-decoration: none;
+  }
+  
+  a:focus,
+  a:hover {
+    color: #f09228;
+    text-decoration: none;
+  }
+  
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1pt;
+  }
+  
+  h2 {
+    margin: 0;
+    font-weight: normal;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+  }
+  
+  .papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1pt;
+  }
+  
+  .name {
+    padding-top: 20px;
+    margin: 0;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+  }
 
-a:focus,
-a:hover {
-color: #8A2BE2;
-text-decoration: none;
-}
-
-body,
-td,
-th,
-tr,
-p,
-a {
-font-family: "Times New Roman", Times, serif;
-font-size: 16px;
-font-weight: 300;
-letter-spacing: 0.7px;
-}
-
-li {
-font-family: "Times New Roman", Times, serif;
-font-size: 16px;
-font-weight: 300;
-letter-spacing: 0.7px;
-margin: 5px;
-}
-
-heading {
-font-family: "Times New Roman", Times, serif;
-font-size: 22px;
-font-weight: 600;
-letter-spacing: 0.7px;
-}
-
-papertitle {
-font-family: "Times New Roman", Times, serif;
-font-size: 16px;
-font-weight: 300;
-letter-spacing: 0.7px;
-}
-
-name {
-font-family: "Times New Roman", Times, serif;
-font-size: 32px;
-font-weight: 600;
-}
-
-
-/* span.highlight {
-background-color: #ffffd0;
-} */
+  .circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.circle img {
+    border-radius: 50%;
+    display: block;
+  }
+.background-circle {
+    background-image: url( 'http://lorempixel.com/200/200/cats/' );
+    height: 200px;
+    width: 200px;
+  }
+  
+  .one {
+    width: 160px;
+    height: 160px;
+    position: relative;
+  }
+  
+  .two {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+  }
+  
+  .fade {
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+  }
+  
+  span.highlight {
+    background-color: #ffffd0;
+  }
